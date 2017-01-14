@@ -4,7 +4,7 @@ MAINTAINER pizycki
 # Port Raven Studio will be hosted
 EXPOSE 8080
 
-ADD http://hibernatingrhinos.com/downloads/ravendb%20for%20ubuntu%2016.04%20x64/40004-alpha /home/Raven.tar.bz2
+ADD http://hibernatingrhinos.com/downloads/ravendb%20for%20ubuntu%2016.04%20x64/40006-alpha /home/Raven.tar.bz2
 
 # Prepare container and Extract RavenDB files to directory
 RUN apt-get update \
